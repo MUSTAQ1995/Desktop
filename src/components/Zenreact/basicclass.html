@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Basic Class </title>
+</head>
+<body>
+    <script>
+        class Student{ name;age;#hobby;
+            constructor(name,age,hobby){
+             alert("constructor ran");
+             this.name = name;
+             this.age = age;
+             this.#hobby = hobby;
+            }
+            showHobby(){
+                alert(this.#hobby);
+            }
+            get interest(){
+                return "Card Collection";
+            }
+            get college(){
+                return "Just a college";
+            }
+            set firstName(val){
+                alert(val);
+                this.name = val;
+            }
+            get firstName(){
+                return this.name;
+            }
+        }
+        let raju = new Student("raju", 21, ["readinh","readihn"]);
+        let avinadh = new Student("avinash", 22, [ "readlnig", "games"]);
+        // console.log(raju);
+        // raju.showHobby()
+        // console.log(avinadh)
+        // alert(avinadh.interest)
+        // alert(avinadh.college);
+        // avinadh.firstName = "Avinash";
+        // alert(avinadh.firstName);
+
+        class SeriousStudent extends Student{
+            howRegular;
+            constructor(name,age,hobby, placementsuriety){
+                super(name, age, hobby )
+                this.howRegular = "Very Regular";
+                this.placementsuriety = placementsuriety;
+            }
+            showRegularity(){
+                alert(this.howRegular)
+            }
+        }
+        let seriousStudent = new SeriousStudent("Raju1", 22, ["reading11", "coding"], "95%");
+        console.log(seriousStudent.howRegular)
+        seriousStudent.showHobby();
+        console.log(seriousStudent)
+    </script>
+</body>
+</html>

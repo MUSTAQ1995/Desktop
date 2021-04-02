@@ -1,0 +1,182 @@
+[
+    {
+        "id":1,
+        "name":"Ravi Gowda",
+        "location":"Bengaluru",
+        "available": "Immediately",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":2,
+        "name":"Ravikiran Gowda",
+        "location":"Mandya",
+        "available": "15 Days",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":3,
+        "name":"Rakesh Gowda",
+        "location":"Tumakuru",
+        "available": "1 month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":4,
+        "name":"Ram Gowda",
+        "location":"Shimogga",
+        "available": "20 Days",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":5,
+        "name":"Rajesh Gowda",
+        "location":"Mangaluru",
+        "available": "2 Months",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":6,
+        "name":"Ramesh Gowda",
+        "location":"Mysuru.",
+        "available": "1.5 Month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":7,
+        "name":"Ravi Gowda",
+        "location":"Bengaluru",
+        "available": "Immediately",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":8,
+        "name":"Ravikiran Gowda",
+        "location":"Mandya",
+        "available": "15 Days",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":9,
+        "name":"Rakesh Gowda",
+        "location":"Tumakuru",
+        "available": "1 month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":10,
+        "name":"Ram Gowda",
+        "location":"Shimogga",
+        "available": "20 Days",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":11,
+        "name":"Rajesh Gowda",
+        "location":"Mangaluru",
+        "available": "2 Months",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":12,
+        "name":"Ramesh Gowda",
+        "location":"Mysuru.",
+        "available": "1.5 Month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":13,
+        "name":"Ravi Gowda",
+        "location":"Bengaluru",
+        "available": "Immediately",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":14,
+        "name":"Ravikiran Gowda",
+        "location":"Mandya",
+        "available": "15 Days",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":15,
+        "name":"Rakesh Gowda",
+        "location":"Tumakuru",
+        "available": "1 month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":16,
+        "name":"Ram Gowda",
+        "location":"Shimogga",
+        "available": "20 Days",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":17,
+        "name":"Rajesh Gowda",
+        "location":"Mangaluru",
+        "available": "2 Months",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":18,
+        "name":"Ramesh Gowda",
+        "location":"Mysuru.",
+        "available": "1.5 Month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":19,
+        "name":"Rajesh Gowda",
+        "location":"Mangaluru",
+        "available": "2 Months",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    },
+    {
+        "id":20,
+        "name":"Ramesh Gowda",
+        "location":"Mysuru.",
+        "available": "1.5 Month",
+        "technologies":[ "ReactJS", "NodeJS", "Bootstrap"],
+        "experience":"5 Years",
+        "photo":"../images/card.png"
+    }
+]

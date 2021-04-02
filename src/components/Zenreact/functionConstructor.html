@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Constructor</title>
+</head>
+<body>
+    <script>
+        let human = {
+            education: 'Degree',
+            birthPlace: 'India',
+        }
+        function Student(name, age, constructor){
+            this.name = name;
+            this.age = age;
+            this.constructor = constructor
+            this.showHobbies = function(){
+                this.constructor.forEach(val => alert(val))
+            }
+            console.log(this)
+        }
+        console.log(Student.prototype);
+        Student.prototype = human;
+        let raju = new Student("Raju", 22, ['nanana', "Nothing"])
+        console.log(raju)
+        raju.showHobbies();
+        let eshaan = new Student("Eshaan", 23, ["Reading", "Nothing"])
+        eshaan.showHobbies();
+        alert(eshaan.education)
+        console.log(eshaan.education)
+    </script>
+</body>
+</html>

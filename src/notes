@@ -1,0 +1,39 @@
+
+numbers = [ 3, 56, 2, 48, 5]
+
+// Map: "Map allows us to do is to loop through the array and create a new array, by doing something with each item in an array. "
+//  function double(x) {
+//      return x*2;
+//  }
+
+// const newNumbers = numbers.map(double);
+// console.log(newNumbers)
+
+// // With the forEach Method:
+
+// var newNumbers = [];
+// function double(x) {
+//     newNumbers.push( x * 2);
+// }
+// numbers.forEach(double)
+ //Filter: It creates a new array by keeping items that return true
+// const newNumbers = numbers.filter(function (num) {
+//     return num > 10
+// });
+
+Reduce : "Reduce  accumulate a value by doing somethig in an array";
+// var newNumber = 0;
+// numbers.forEach(function (currentNumber){
+//     newNumber += currentNumber;
+// })
+
+// Find="Finds the element that match an element in an array."
+//This will not gone a check through the whole array, it comes out as soon as it reachs the condtion, like if its find only one element then it comes out.
+// const newNumber = numbers.find(function (num) {
+//     return num > 10;
+// })
+
+
+// FindIndex: works same as the "Find" but insted of finding the first item it 
+// finds the firstIndex of the item that matches.
+console.log(newNumbers);

@@ -1,0 +1,10 @@
+.login__body {
+    border: 1px solid black;
+    margin: 50px;
+    height: 700px;
+    width:500px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+

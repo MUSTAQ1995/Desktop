@@ -1,0 +1,49 @@
+"npm start"= "starts the react applicationCache";
+This is the server that starts the react application that helps us 
+to see the  react application on port 3000 with url as localhost: 3000.
+
+
+// In modren browser ECMA6
+
+Same Origin policy: Means that if your website is loading from zenrays.com 
+then you can not male request to load data from other website using javascript.
+
+localHost:3000 can not make request to localHost: 8080,which is live-server port.
+
+Bakcend-Server: We use live-server, we will just save json file there and react 
+will request from browser to get the json file, via a url same was as u call a url
+to get data.
+
+Proxy:Proxy means requset is sent to localhost:3000, and then directed to backend-server.
+
+NPM Start: "starts the react application, it status local server that only conatins
+frondEnd".
+
+What is "Live-server"?
+we will mimic/imitate a actual server from where react will get data and show 
+it in its componebts.
+
+In react we can also run the code like "open in the browser" by npm run build:
+ which will create a build folder in that you will have index.html file to open in 
+browser.
+
+ECMA 6: which is modren JavaScript.
+Not all the browser can support the modren JAVASCRIPT.
+Babel: babel is a Transpiler, Babel, is not a compiler,
+ which converts the modern Javascript to the older version of Javascript, where the
+modren javascript is not abel to run.To support all the browsers for the same code.
+
+React: React or any  front end libraries will run in the browser, not in the local
+server.
+In local server the react-code which we have written will run and it will converted
+to the browser suppoer code by the Babel.
+
+Single Page Application: You can not load the another url or new url in that page.
+
+
+From browser you will make the request to the local server and local server will make requset to the 
+back-end server.(Proxy)
+Request send to the localhost:3000 from the browser, that again request to the backend.
+
+
+

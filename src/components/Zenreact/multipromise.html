@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+    <style>
+        #loaderdiv {
+            background-image: url();
+            background-size: contain;
+            height: 50px;
+            width: 100px;
+            background-repeat: no-repeat;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="generate()">Generate Number</button>
+    <div id="loaderdiv"></div>
+    <script>
+        let loaderdivObject = document.getElementById("loaderdiv");
+        function generate(){
+            let promise = new Promise(function(resolve, reject) {
+            setTimeout(() => {
+                let no = Math.floor(Math.random()*10);
+                if(no%2==0){
+                    resolve(no);
+                } else {
+                    reject(no)
+                }
+            }, 2000);
+            let promiseOne = new Promise(function(resolve, reject) {
+            setTimeout(() => {
+                let no = Math.floor(Math.random()*10);
+                if(no%2==0){
+                    resolve(no);
+                } else {
+                    reject(no)
+                }
+            }, 2000);
+        })
+
+        Promise.all([promise, promiseOne]).then((values)=>{
+            console.log(values)
+        })
+            // result => {console.log("inside success"); alert(`promise success ${result}`);}
+            // error => {console.log("inside Fail"); alert(`promise failed ${error}`);}
+        
+        .catch((error) => {
+            console.log("inside Fail");
+            console.log(error)
+        })
+        .finally(()=>{alert("finally all done"); loaderdivObject.style.display = "none";})
+        }
+            )}    
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Then Promise</title>
+</head>
+<body>
+<script>
+ function fetchPancard(name){
+     console.log("came in fetchPancard"+name);
+     if(name= "eshaan"){
+         return "es1233";
+     } else {
+         return false;
+     }
+ }
+ function fetchIncome(pancard){
+     if(pancard == "es1233"){ return "10 Lakhs"}
+     else { return false;}
+ }
+ function getPancard(name){
+     let promise = new Promise(function(resolve, reject){
+         setTimeout(()=>{
+             let result = fetchPancard(name);
+             if(result != false){ resolve(result);}
+             else { reject('failed at getPancard');}
+         }, 1000);
+     })
+     return promise;
+ }
+ function getIncome(pancard){
+     let promise = new Promise(function(resolve, reject){
+         setTimeout(function(){
+             let income = fetchIncome(pancard);
+             if(income != false){
+                 resolve(income);
+             } else {
+                 reject("failed at getIncome");
+             }
+         }, 1000);
+     })
+     return promise;
+ }
+ let name = "Eshaan";
+ getPancard(name)
+ .then((result) => {console.log(`pancard = ${result}`); return getIncome(result)})
+ .then((result) => {console.log(`income = ${result}`); })
+ .catch((error)=>{alert("PRomise failed finally"); })
+</script>
+</body>
+</html>
